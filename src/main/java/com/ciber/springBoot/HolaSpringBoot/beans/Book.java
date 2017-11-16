@@ -8,6 +8,7 @@ package com.ciber.springBoot.HolaSpringBoot.beans;
  *
  */
 //comentario funcionalidad
+
 public class Book {
     private Long id;
     private String title;
