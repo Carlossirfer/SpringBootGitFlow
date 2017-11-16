@@ -2,6 +2,7 @@
  * 
  */
 //comentario para la feature cambio
+//añadida en la version2
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import org.joda.time.LocalDate;
