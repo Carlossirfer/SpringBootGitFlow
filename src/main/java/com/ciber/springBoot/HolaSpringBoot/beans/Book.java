@@ -7,6 +7,7 @@ package com.ciber.springBoot.HolaSpringBoot.beans;
  * @author ciber
  *
  */
+//error
 public class Book {
     private Long id;
     private String title;
