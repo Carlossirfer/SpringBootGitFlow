@@ -1,8 +1,8 @@
 /**
  * 
  */
-//comentario para la feature cambio
-//añadida en la version2
+//cambio nueva 1
+//release 1.0.5
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import org.joda.time.LocalDate;

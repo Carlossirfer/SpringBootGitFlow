@@ -11,6 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @author ciber
  *
  */
+
 public class UserRest {
 	@JsonIgnore
 	@Id

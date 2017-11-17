@@ -1,16 +1,15 @@
 /**
  * 
  */
+//cambio nueva 2
+//release 1.0.5
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 /**
  * @author ciber
  *
  */
-//error
-//comentario funcionalidad
-//feature 1
-//comentario feature nueva2
+
 public class Book {
     private Long id;
     private String title;
