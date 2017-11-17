@@ -10,7 +10,7 @@ package com.ciber.springBoot.HolaSpringBoot.beans;
 //error
 //comentario funcionalidad
 //feature 1
-//comentario feature nueva2
+
 
 
 public class Book {
