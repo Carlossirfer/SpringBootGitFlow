@@ -1,7 +1,7 @@
 /**
  * 
  */
-//CAMBIO FEATURE CAMBIO1
+//cambio nueva 1
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import org.joda.time.LocalDate;
