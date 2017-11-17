@@ -7,10 +7,7 @@ package com.ciber.springBoot.HolaSpringBoot.beans;
  * @author ciber
  *
  */
-//error
-//comentario funcionalidad
-//feature 1
-//comentario feature nueva2
+//feature cambio
 public class Book {
     private Long id;
     private String title;
