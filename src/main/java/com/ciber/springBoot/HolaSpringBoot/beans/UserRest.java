@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * @author ciber
  *
  */
-//feature cambio2
+
 public class UserRest {
 	@JsonIgnore
 	@Id
