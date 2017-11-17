@@ -1,6 +1,7 @@
 /**
  * 
  */
+//cambio nueva 2
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 /**
