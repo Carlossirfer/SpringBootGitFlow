@@ -1,7 +1,7 @@
 /**
  * 
  */
-
+//cambio nueva 1
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import java.util.List;
