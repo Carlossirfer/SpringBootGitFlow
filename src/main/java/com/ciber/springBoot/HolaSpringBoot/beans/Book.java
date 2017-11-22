@@ -1,10 +1,5 @@
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
-/**
- * @author ciber
- *
- */
-//featureMongoUser
 public class Book {
     private Long id;
     private String title;
