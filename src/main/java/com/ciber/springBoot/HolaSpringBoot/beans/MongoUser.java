@@ -1,6 +1,7 @@
 /**
  * 
  */
+//featureMongoUser
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import java.util.List;
