@@ -1,8 +1,6 @@
 /**
  * 
  */
-//cambio SourceTree2 Y lo he cambiado
-//cambio 2
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 /**

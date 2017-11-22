@@ -1,7 +1,6 @@
 /**
  * 
  */
-//cambio2 sourcetree
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import java.util.List;
