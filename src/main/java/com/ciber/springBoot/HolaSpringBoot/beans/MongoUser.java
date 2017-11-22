@@ -1,8 +1,7 @@
 /**
  * 
  */
-//cambio nueva 1
-//release 1.0.5
+//cambio2 sourcetree
 package com.ciber.springBoot.HolaSpringBoot.beans;
 
 import java.util.List;
