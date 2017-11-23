@@ -2,7 +2,6 @@
  * 
  */
 package com.ciber.springBoot.HolaSpringBoot.config;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -19,9 +18,10 @@ import com.mongodb.MongoClient;
 @Configuration
 @EnableMongoRepositories(basePackages="com.ciber.springBoot.daoMongo")
 public class SimpleMongoConfig {
-	 
-	@Autowired
-	private BbddProperties bbddProperties;
+
+	
+//	@Autowired
+//	private BbddProperties bbddProperties;
 	
     @Bean
     public Mongo mongo() throws Exception {
@@ -31,15 +31,22 @@ public class SimpleMongoConfig {
     @Primary
     @Bean(name = "mongoTemplateBasePrueba")
     public MongoTemplate mongoApp() throws Exception {
-    	System.out.println("base prueba -------- "+bbddProperties.getBasePrueba());
+//    	System.out.println("base prueba -------- "+bbddProperties.getBasePrueba());
         return new MongoTemplate(mongo(), "baseprueba");
     }
     
     @Bean(name = "mongoTemplateUsuariosLogin")
     public MongoTemplate mongoLogin() throws Exception {
-    	System.out.println("usuarios login -------- "+bbddProperties.getUsuariosLogin());
+//    	System.out.println("usuarios login -------- "+bbddProperties.getUsuariosLogin());
         return new MongoTemplate(mongo(), "usuarioslogin");
     }
+    
+    @Bean(name = "mongoTemplateProperties")
+    public MongoTemplate mongoProperties() throws Exception {
+//    	System.out.println("usuarios login -------- "+bbddProperties.getUsuariosLogin());
+        return new MongoTemplate(mongo(), "properties");
+    }
+    
 
    
 }

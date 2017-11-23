@@ -32,22 +32,29 @@ public class UsuarioController {
 
 	@Autowired
 	DaoUsers daoUsers;
+	
+//	@Autowired
+//	@Qualifier(value = "myProps")
+//	Properties props;
 
 	@Autowired
 	@Qualifier(value = "mongoTemplateBasePrueba")
 	MongoTemplate mongoApp;
 
+//	@Autowired
+//	@Qualifier(value = "mongoTemplateProperties")
+//	MongoTemplate mongoProperties;
+
 	@Autowired
 	@Qualifier(value = "mongoTemplateUsuariosLogin")
 	private MongoTemplate mongoLogin;
-	
+
 	@Autowired
 	private HttpSession httpSesion;
 
 	@Secured({ "ROLE_ADMIN" })
 	@RequestMapping("/mongo")
-	public ModelAndView home(Model model)
-			throws Exception {
+	public ModelAndView home(Model model) throws Exception {
 		try {
 			model.addAttribute("usuario", httpSesion.getAttribute("usuario").toString());
 			model.addAttribute("roles", httpSesion.getAttribute("roles").toString());
